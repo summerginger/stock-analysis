@@ -2,52 +2,52 @@
 
 ## Overview of Project
 
-This workbook contains the tables of stock value returns in the past years and the refactoring code which can loop through any similar set of large stock dataset one time to successfully collect the necessary information faster with a click of button.
-
+This workbook contains the tables of stock value returns in the past years and the refactoring code, which can loop through any similar set of large stock dataset one time to successfully collect the necessary information faster with a click of a button.
 ### The purpose 
-
-The purpose of this project is to help Steve’s parents evaluate and compare the stock’s performance between 2017 and 2018 dataset at a glance and they can also use it for the future needs.
+This project aims to help Steve's parents evaluate and compare the stock's performance between the 2017 and 2018 datasets at a glance, and they can also use it for future needs.
 
 ## Results
 ### Compare the stock performance between 2017 and 2018
-
-The followings are the functionality that the program VBA does and the tables provide the results of yearly stock’s volume and return in 2017 and 2018.
+The following is the function output produced by the program VBA. These tables provide the results of annual stock's volume and returns for 2017 and 2018.
 
 ### Returns in 2017
-
 ![ VBA_Challenge_2017.png ](https://github.com/summerginger/stock-analysis/blob/main/VBA_Challenge_2017.png)
-
-In the table above illustrates the yearly return in 2017, we can clearly see that the DQ stock is the highest return value at 199.4%, and the lowest return is Run at 5.5%. and there is only one negative return which is Terp at -7.3%. Overall, there is a huge majority positive numbers of stock returns in 2017.  
+The table above illustrates the yearly return in 2017, we can see that the highest yield is the DQ stock, valued at 199.4%, and the lowest yield is Run stock at 5.5%. And there was only one negative return throughout the year, which was Terp at -7.3%. Overall, the vast majority of stock returns in 2017 were good.
 
 ### Returns in 2018 ![ VBA_Challenge_2018.png ](https://github.com/summerginger/stock-analysis/blob/main/VBA_Challenge_2018.png)
+Compare the same pile of stocks in 2018. In just over a year, the stock market has undergone tremendous changes. For the highest stocks in 2017, DQ stocks fell to the lowest -62.6% in 2018. The same surprising story happened to Run Stock, but its value soared to the highest point of return, reaching 84% on the positive side. Overall, the stock market performance in 2018 is very worrying.
 
-Compare the same stacks in 2018, in just over a year, the stokc market had been changed dramaticaly; for one with the highest high in 2017, DQ stock is plumged from 199.4% to the lowst low at -62.6% in 2018, it is the worst one among the others. However, the same story happened surprisingly to the Run stock, with the lowest return of 5.5% to the highest return point at 84%. overall, the stock marke this years' result is very bad.
+## Summary
 
 ### conclustion and recommandation
+To conclude, the stock market can take stairs going up and windows going down. These tables only provide the returns and volumes; it is difficult to tell where the institutions may be putting their money. Therefore,  we recommend that Steve also needs to consider other ways to protect and predict his parents' further investments.
 
-To conclude, stocks market can take staris going up and windows going down,the tables are only provide the return and volume, it is difficult to tell where the institutions may be putting their money, so we recommand that Steve need also to consider the other ways to protect and predict for his parents’ further investments.
-
-###Compare the execution times of the original script and the refactored script
-
-In the future, Steve’s parents may want to perform their analysis on larger datasets, and this timer code can help them to know how fast can the VBA compile the results.
-This is the original script of code and the execution time is slightly more than the refactored code (the first image) in 2017.
+### Compare the execution times of the original script and the refactored script
+In the future, Steve's parents may want to perform their analysis on larger datasets, and this timer code can help them know how fast the VBA can compile the results. The refactored code is faster than the original script. 
 
 ![2017 original]( https://github.com/summerginger/stock-analysis/blob/main/2017%20original.png) 
 
 ![2018 original]( https://github.com/summerginger/stock-analysis/blob/main/2018%20original.png) 
 
-However, it was unexpected to have the refactored code run slower for 2018, but both refactored 
+### Advantages and disadvantages of refactoring code in general.
+The advantages of refactoring code are that it helps find bugs, makes the program run faster, more concise, cleaner, more readable, and more understandable, it is not changing functionality. However, the disadvantages are that it can be time-consuming, testings slow down the development, and are prone to more defects.
+
+ ### The advantages and disadvantages of the original and refactored VBA script.
+
+  In comparing the original and the refactored code, one side of the advantages is that there is no repetition of writing the same code. It is a fast, free tool to automate any similar task and easy to maintain. On the other side, however, it has a lot of broad-reaching effects. It is difficult to tracking and change all places of variables in a large dataset. And it also involves planning, trying, researching, and testing. It can also end up spending a good chunk of time.
+ 
+ ### the buttons' instruction
+We assigned macros code to the button to make it user-friendly. So here is a simple instruction for Steve's parents to follow, to run a particular year of stock analysis, click the button "Run all stock analysis," and then enter the specific year. The tables will display that year's information. To make it run faster or to clear the worksheet, click the "Reset" button.  
+
+
+![buttons.png]( https://github.com/summerginger/stock-analysis/blob/main/buttons.png)
 
 
 
 
+  
 
 
 
 
-
-
-
-
-
-
+	
