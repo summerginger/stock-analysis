@@ -14,12 +14,12 @@ The following is the function output produced by the program VBA. These tables p
 ![ VBA_Challenge_2017.png ](https://github.com/summerginger/stock-analysis/blob/main/VBA_Challenge_2017.png)
 The table above illustrates the yearly return in 2017, we can see that the highest yield is the DQ stock, valued at 199.4%, and the lowest yield is Run stock at 5.5%. And there was only one negative return throughout the year, which was Terp at -7.3%. Overall, the vast majority of stock returns in 2017 were good.
 
-### Returns in 2018 ![ VBA_Challenge_2018.png ](https://github.com/summerginger/stock-analysis/blob/main/VBA_Challenge_2018.png)
+### Returns in 2018
 Compare the same pile of stocks in 2018. In just over a year, the stock market has undergone tremendous changes. For the highest stocks in 2017, DQ stocks fell to the lowest -62.6% in 2018. The same surprising story happened to Run Stock, but its value soared to the highest point of return, reaching 84% on the positive side. Overall, the stock market performance in 2018 is very worrying.
 
-## Summary
+![ VBA_Challenge_2018.png ](https://github.com/summerginger/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
-### conclustion and recommandation
+### Conclustion and Recommandation
 To conclude, the stock market can take stairs going up and windows going down. These tables only provide the returns and volumes; it is difficult to tell where the institutions may be putting their money. Therefore,  we recommend that Steve also needs to consider other ways to protect and predict his parents' further investments.
 
 ### Compare the execution times of the original script and the refactored script
@@ -29,16 +29,14 @@ In the future, Steve's parents may want to perform their analysis on larger data
 
 ![2018 original]( https://github.com/summerginger/stock-analysis/blob/main/2018%20original.png) 
 
-### Advantages and disadvantages of refactoring code in general.
+## Summary of Advantages and Disadvantages of Refactoring Code in General
 The advantages of refactoring code are that it helps find bugs, makes the program run faster, more concise, cleaner, more readable, and more understandable, it is not changing functionality. However, the disadvantages are that it can be time-consuming, testings slow down the development, and are prone to more defects.
 
- ### The advantages and disadvantages of the original and refactored VBA script.
-
-  In comparing the original and the refactored code, one side of the advantages is that there is no repetition of writing the same code. It is a fast, free tool to automate any similar task and easy to maintain. On the other side, however, it has a lot of broad-reaching effects. It is difficult to tracking and change all places of variables in a large dataset. And it also involves planning, trying, researching, and testing. It can also end up spending a good chunk of time.
- 
- ### the buttons' instruction
+## Summary of How do these Pros and Cons Apply to Refactoring the Original VBA Script?
+The best thing is that there is no repetition of writing the same code. It is a fast, free tool to automate any similar task and easy to maintain. Moreover, the breakpoints for the loop is very helpful, and it helps visualize the actual value for that indicator. However, it has a lot of broad-reaching effects. It is difficult to tracking and change all places of variables, especially in a large dataset. For example, if tickers are changed to tickers (i ), all the areas need to be changed to the same variable in the macro. And it also involves planning, trying, researching, and testing. It can end up spending a good chunk of time as well.
+  
+### *The buttons' instruction
 We assigned macros code to the button to make it user-friendly. So here is a simple instruction for Steve's parents to follow, to run a particular year of stock analysis, click the button "Run all stock analysis," and then enter the specific year. The tables will display that year's information. To make it run faster or to clear the worksheet, click the "Reset" button.  
-
 
 ![buttons.png]( https://github.com/summerginger/stock-analysis/blob/main/buttons.png)
 
