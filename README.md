@@ -30,13 +30,14 @@ In the future, Steve's parents may want to perform their analysis on larger data
 ![2018 original]( https://github.com/summerginger/stock-analysis/blob/main/2018%20original.png) 
 
 ## Summary of Advantages and Disadvantages of Refactoring Code in General
-The advantages of refactoring code are that it helps find bugs, makes the program run faster, more concise, cleaner, more readable, and more understandable. It is not changing functionality. However, the disadvantages are that it can be time-consuming, testing slow down the development, and are prone to more defects.
+The advantages of refactoring code are that it helps find bugs, makes the program run faster, more concise, cleaner, more readable, and more understandable. It is not changing functionality.  However, the disadvantages are that it can be time-consuming, testing slow down the development, and are prone to more defects.
 
-## Summary of How do these Pros and Cons Apply to Refactoring the Original VBA Script?
+## Summary of How do these Pros and Cons Apply to Refactoring the Original VBA Script
 The best thing about reapply the same code is that there is no repetition. It is a fast, free tool to automate any similar task and debug function help to find errors and easy to maintain. Moreover, the breakpoints for the loop is very helpful, and it helps visualize the actual value for that indicator. However, it has a lot of broad-reaching effects. It is difficult to tracking and change all places of variables, especially in a large dataset. And it is case sensitive and space sensitive. It also involves planning, trying, researching, and testing. It can end up spending a good chunk of time as well.
   
-### *The buttons' instruction
-We assigned macros code to the button to make it user-friendly. So here is a simple instruction for Steve's parents to follow, to run a particular year of stock analysis, click the button "Run all stock analysis," and then enter the specific year. The tables will display that year's information. To make it run faster or to clear the worksheet, click the "Reset" button.  
+
+### *The User's tip
+We assigned macros code to the button to make it user-friendly. So to run a particular year of stock analysis, click the button "Run all stock analysis," and then enter the specific year. The tables will display that year's information. To make it run faster or to clear the worksheet, click the "Reset" button. The button is good for the same staock for any years. If Steve's parents wants to add or delete the stocks, then they will have to do it manually in the Macro or just let us know, and we can help them further assistances.
 
 ![buttons.png]( https://github.com/summerginger/stock-analysis/blob/main/buttons.png)
 
