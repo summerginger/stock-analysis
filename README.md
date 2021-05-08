@@ -15,7 +15,7 @@ The following is the function output produced by the program VBA. These tables p
 The table above illustrates the yearly return in 2017, we can see that the highest yield is the DQ stock, valued at 199.4%, and the lowest yield is Run stock at 5.5%. And there was only one negative return throughout the year, which was Terp at -7.3%. Overall, the vast majority of stock returns in 2017 were good.
 
 ### Returns in 2018
-Compare the same pile of stocks in 2018. In just over a year, the stock market has undergone tremendous changes. For the highest stocks in 2017, DQ stocks fell to the lowest -62.6% in 2018. The same surprising story happened to Run Stock, but its value soared to the highest point of return, reaching 84% on the positive side. Overall, the stock market performance in 2018 is very worrying.
+Compare the same pile of stocks in 2018. In just over a year, the stock market has undergone tremendous changes. For the highest stocks in 2017, DQ stocks fell to the lowest -62.6% in 2018. The same surprising story happened to Run Stock, but its value soared to the highest point of return, reaching 84% on the positive side. Overall, the stock market performance in 2018 was very worrying.
 
 ![ VBA_Challenge_2018.png ](https://github.com/summerginger/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
@@ -30,7 +30,7 @@ In the future, Steve's parents may want to perform their analysis on larger data
 ![2018 original]( https://github.com/summerginger/stock-analysis/blob/main/2018%20original.png) 
 
 ## Summary of Advantages and Disadvantages of Refactoring Code in General
-The advantages of refactoring code are that it helps find bugs, makes the program run faster, more concise, cleaner, more readable, and more understandable, it is not changing functionality. However, the disadvantages are that it can be time-consuming, testing slow down the development, and are prone to more defects.
+The advantages of refactoring code are that it helps find bugs, makes the program run faster, more concise, cleaner, more readable, and more understandable. It is not changing functionality. However, the disadvantages are that it can be time-consuming, testing slow down the development, and are prone to more defects.
 
 ## Summary of How do these Pros and Cons Apply to Refactoring the Original VBA Script?
 The best thing about reapply the same code is that there is no repetition. It is a fast, free tool to automate any similar task and debug function help to find errors and easy to maintain. Moreover, the breakpoints for the loop is very helpful, and it helps visualize the actual value for that indicator. However, it has a lot of broad-reaching effects. It is difficult to tracking and change all places of variables, especially in a large dataset. And it is case sensitive and space sensitive. It also involves planning, trying, researching, and testing. It can end up spending a good chunk of time as well.
